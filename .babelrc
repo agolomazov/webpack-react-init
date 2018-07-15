@@ -1,0 +1,37 @@
+{
+	"presets": [
+		[
+			"env",
+			{
+				"targets": {
+					"browsers": ["last 2 versions", "safari >= 7"]
+				},
+				"debug": false
+			}
+		],
+		"react",
+		"minify",
+		"flow"
+	],
+	"plugins": [
+		[
+			"transform-runtime",
+			{
+				"helpers": false,
+				"polyfill": false,
+				"regenerator": true,
+				"moduleName": "babel-runtime"
+			}
+		],
+		"transform-async-to-generator",
+		[
+			"babel-plugin-styled-components",
+			{
+				"displayName": true,
+				"fileName": true
+			}
+		],
+		"transform-class-properties",
+		"react-hot-loader/babel"
+	]
+}

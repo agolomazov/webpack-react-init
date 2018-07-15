@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+	background-color: rgb(65, 27, 202);
+}
+
+.profile {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+img {
+	width: 300px;
+	border-radius: 50%;
+	box-shadow: 0 0 20px #000;
+}
+
+h1 {
+	color: white;
+
+	font-size: 5em;
+	font-family: sans-serif;
+	text-shadow: 0 0 20px #000;
+}
